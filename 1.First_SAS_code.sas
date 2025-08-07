@@ -14,3 +14,5 @@ proc contents data=city_data;
 run;
 
 %put This line was updated from SAS Studio and pushed to Git;
+
+%put This line was updated in the Git Editor;
