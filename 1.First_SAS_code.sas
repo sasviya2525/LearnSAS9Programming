@@ -12,3 +12,6 @@ run;
 /* proc to see the metadata for the dataset */
 proc contents data=city_data;
 run;
+
+/*change added from SAS Studio */
+%put this line was added in SAS Studio;
