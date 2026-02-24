@@ -1,7 +1,7 @@
 /* simple datastep */
 data city_data x;
    cityName='Los Angeles';
-   population=15000000;
+   population=16000000;
 run;
 
 /* proc to print the dataset */
