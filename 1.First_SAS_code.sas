@@ -1,11 +1,7 @@
 /* simple datastep */
 data city_data x;
    cityName='Los Angeles';
-<<<<<<< Local
-   population=24000000;
-=======
    population=17000000;
->>>>>>> Remote
 run;
 
 /* proc to print the dataset */
