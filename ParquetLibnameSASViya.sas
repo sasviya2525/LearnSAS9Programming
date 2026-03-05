@@ -12,7 +12,7 @@ libname myddpq duckdb file_type=parquet
    file_path="/innovationlab-export/innovationlab/homes/Vijay.Govindarajan@sas.com/parquetFiles";
 
 
-data myddpq.cars;
+data myddpq.cars (replace=yes);
     set sashelp.cars;
 run;
 
@@ -21,6 +21,6 @@ proc sql;
 quit;
 
 
-data myddpq.class;
+data myddpq.class (replace=yes);
     set sashelp.class;
 run;
