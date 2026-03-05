@@ -1,6 +1,6 @@
 /* simple datastep */
 data city_data x;
-   cityName='Los Angeles';
+   cityName='New York';
    population=20;
 run;
 
