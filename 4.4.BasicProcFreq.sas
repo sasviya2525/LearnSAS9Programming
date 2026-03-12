@@ -2,7 +2,7 @@
 filename hmeq url 'https://support.sas.com/documentation/onlinedoc/viya/exampledatasets/home_equity.csv';
 
 /* Create permanent sas library - sasdata */
-libname sasdata '/home/u63610950/IntroToSAS/SASData';
+*libname sasdata '/home/u63610950/IntroToSAS/SASData';
 
 data hmeq;
 	infile hmeq lrecl=200 missover dlm=',' dsd firstobs=2;
