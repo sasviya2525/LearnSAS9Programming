@@ -5,7 +5,7 @@ filename hmeq url 'https://support.sas.com/documentation/onlinedoc/viya/exampled
 *libname sasdata '/home/u63610950/IntroToSAS/SASData';
 
 data hmeq;
-	infile hmeq lrecl=200 missover dlm=',' dsd firstobs=2;
+	infile hmeq lrecl=201 missover dlm=',' dsd firstobs=2;
 	input BAD LOAN MORTDUE VALUE REASON $
     JOB $
     YOJ DEROG DELINQ CLAGE NINQ CLNO DEBTINC APPDATE CITY :$25. STATE :$20. 
