@@ -18,3 +18,6 @@ run;
 
 /*change 2 from SAS Studio */
 %put this line 2 was added in SAS Studio;
+
+/*change 3 from gitHub */
+%put this line was added directly in gitHub;
