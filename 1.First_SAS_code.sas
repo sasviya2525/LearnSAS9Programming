@@ -2,6 +2,9 @@
 data city_data x;
    cityName='New York';
    population=20;
+   cityName='Los Angeles';
+   population=18;
+   output;   
 run;
 
 /* proc to print the dataset */
